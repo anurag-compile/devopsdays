@@ -1,0 +1,46 @@
+
+
+Day 2 - Basics Linux command
+
+
+Task: What is the linux command to
+
+Check your present working directory.
+
+List all the files or directories including hidden files.
+
+Create a nested directory A/B/C/D/E
+
+1.) Check your present working directory
+
+The current working directory is the directory in which the user is currently working in. Each time you interact with your command prompt, you are working within a directory.
+
+By default, when you log into your Linux system, your current working directory is set to your home directory.
+
+The pwd command stands for print working directory. It is one of the most basic and frequently used commands in Linux. When invoked the command prints the complete path of the current working directory.
+
+
+
+2.) List all the files or directories including hidden files
+
+On Linux, hidden files are files that are not directly displayed when performing a standard ls directory listing.
+
+Hidden files, also called dotfiles on Unix operating systems, are files used to execute some scripts or to store configuration about some services on your host.
+
+Some popular examples of hidden files are the files contained in the user home directory: .bashrc which stores user initialization scripts or .bash_logout which is executed whenever you leave a bash session.
+
+The easiest way to show hidden files on Linux is to use the ls command with the “-a” option for “all”.
+
+
+To show exclusively hidden files on Linux, use the ls command with a special regex.
+
+
+3.) Create a nested directory A/B/C/D/E
+
+This can be achieved in a single line also:
+
+
+
+If you look at the output of mkdir in the example, you will notice that mkdir created the 'A' directory first and then created 'B' under the 'A' directory and so on.
+
+This indicates that mkdir will first make the necessary parent directories and then the child directory if you use the '-p' flag.
