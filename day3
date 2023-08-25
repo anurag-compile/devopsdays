@@ -1,0 +1,158 @@
+Day 3 - Basic Linux Commands (part 2)
+
+
+
+Task: What is the linux command to
+
+To view what's written in a file.
+
+To change the access permissions of files.
+
+To check which commands you have run till now.
+
+To remove a directory/ Folder.
+
+To create a fruits.txt file and to view the content.
+
+Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+
+Show only the top three fruits from the file.
+
+Show only the bottom three fruits from the file.
+
+To create another file Colors.txt and to view the content.
+
+Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, and Grey.
+
+To find the difference between fruits.txt and Colors.txt file.
+
+Solution-
+1.) To view what's written in a file
+
+The Linux command to view what's written in a file is cat. The syntax is:
+
+
+
+cat [options] filename
+
+
+2.) To change the access permissions of files
+
+The Linux command to change the access permissions of files is chmod. It stands for "change mode". The syntax for the chmod command is:
+
+
+
+chmod [options] mode file
+
+
+3.) To check which commands you have run till now.
+
+The Linux command to check which commands you have run till now is the history command.
+
+To view the last command you ran, type history -1.
+
+To view the first command you ran, type history -n 1.
+
+To view all the commands you ran today, type history | grepdate``.
+
+To delete the last command you ran, type history -d 1.
+
+To delete all the commands you ran today, type history -ddate``.
+
+4.) To remove a directory/ Folder.
+There are two commands in Linux to remove a directory/folder:
+
+rmdir : This command is used to remove an empty directory. The directory must be empty, i.e., it cannot contain any files or subdirectories.
+
+rm -r : This command is used to remove a directory and all of its contents, including files and subdirectories.
+
+For example, to remove the directory my_directory, you would use the following command:
+
+
+
+rmdir my_directory
+To remove the directory my_directory and all of its contents, you would use the following command:
+
+
+
+rm -r my_directory
+
+
+5.) To create a fruits.txt file and to view the content.
+
+Sure, here are the Linux commands to create a fruits.txt file and to view its content:
+
+To create a fruits.txt file:
+
+
+
+touch fruits.txt
+The touch command creates an empty file with the specified name. In this case, the file name is fruits.txt.
+
+To view the content of the fruits.txt file:
+
+
+
+cat fruits.txt
+
+
+The cat command displays the contents of a file. In this case, the file is fruits.txt.
+
+6.) Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+
+Sure, here is the Linux command to add content in devops.txt (one in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, and Guava:
+
+
+
+The echo command is used to print text to the console. The >> symbol is used to append the output of the echo command to the end of the file.
+
+7.) Show only the top three fruits from the file.
+
+you can use the head command to show only the top three fruits from the file. The syntax is:
+
+
+
+head -n 3 devops.txt
+The -n flag specifies the number of lines to display.
+
+
+
+8.) Show only the bottom three fruits from the file.
+
+you can use the tail command to show only the bottom three fruits from the file. The syntax is:
+
+
+
+tail -n 3 devops.txt
+
+
+9.) To create another file Colors.txt and to view the content.
+
+you can create another file called Colors.txt and view its contents using the following commands:
+
+
+
+touch Colors.txt
+cat Colors.txt
+
+
+The touch command creates a new file if it does not exist. The cat command displays the contents of a file.
+
+10.) Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, and Grey.
+
+you can add the following content to the file Colors.txt (one in each line) - Red, Pink, White, Black, Blue, Orange, Purple, and Grey:
+
+
+
+
+
+11.) To find the difference between fruits.txt and Colors.txt file.
+
+you can use the diff command to find the difference between the files fruits.txt and Colors.txt. The syntax is:
+
+
+
+diff fruits.txt Colors.txt
+
+
+The diff command will compare the contents of the two files and display any differences between them. If there are no differences, the command will produce no output.
