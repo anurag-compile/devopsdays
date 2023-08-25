@@ -1,0 +1,41 @@
+1.) What is DevOps?
+DevOps is a set of practices, tools, and a cultural philosophy that automates and integrates the processes between software development and IT teams. It emphasizes team empowerment, cross-team communication and collaboration, and technology automation.
+
+2.) How does DevOps work?
+A DevOps team includes developers and IT operations working collaboratively throughout the product lifecycle, in order to increase the speed and quality of software deployment. It’s a new way of working, a cultural shift, that has significant implications for teams and the organizations they work for.
+
+DevOps teams use tools to automate and accelerate processes, which helps to increase reliability. A DevOps toolchain helps teams tackle important DevOps fundamentals including continuous integration, continuous delivery, automation, and collaboration.
+
+3.) What is Automation, Scaling, and Infrastructure?
+Automation- Automation refers to the use of technology to automate manual and repetitive tasks, such as software testing, configuration management, and deployment. Automation can reduce human error, increase efficiency, and speed up the delivery of software and services.
+
+Scaling- Scaling refers to the ability of a system to handle an increased workload or demand. This can be achieved through horizontal scaling, which involves adding more instances of a resource, such as servers, or vertical scaling, which involves adding more resources to an existing instance, such as adding more RAM or CPU to a server. Scaling is important to ensure that systems can handle traffic spikes and maintain performance as usage grows.
+
+Infrastructure- Infrastructure refers to the underlying hardware and software components that enable the functioning of applications and systems. This can include servers, storage devices, networking equipment, and operating systems. Infrastructure can be on-premises, in the cloud, or a hybrid of both.
+
+Together, these concepts form the foundation of modern IT infrastructure and software development practices, allowing organizations to build and deploy software more quickly, reliably, and at scale.
+
+4.) Why DevOps is important?
+When development and operations teams come together, they reduce lead time, deploy more frequently, and produce higher-quality software.
+
+The value of DevOps is big. Nearly all (99%) of respondents said DevOps has had a positive impact on their organization, according to the 2023 DevOps Trends Survey. Teams that practice DevOps ship better work faster, streamline incident responses, and improve collaboration and communication across teams.
+
+1.) Collaboration and Trust-
+
+Building a culture of shared responsibility, transparency, and faster feedback is the foundation of every high-performing DevOps team. Collaboration and problem-solving ranked as the most important elements of a successful DevOps culture, according to our 2023 DevOps Trends survey.
+2.) Release faster and work smarter-
+
+Speed is everything. Teams that practice DevOps release deliverables more frequently, with higher quality and stability. The DORA “2019 State of DevOps” report found that elite teams deploy 208 times more frequently and 106 times faster than low-performing teams.
+
+A lack of automated test and review cycles slows the production release, while poor incident response time kills velocity and team confidence. Disparate tools and processes increase operating costs, lead to context switching, and can slow down momentum. Yet with tools that drive automation and new processes, teams can increase productivity and release more frequently with fewer hiccups.
+
+3.) Accelerate time-to-resolution-
+
+The team with the fastest feedback loop is the team that thrives. Full transparency and seamless communication enable DevOps teams to minimize downtime and resolve issues faster.
+
+If critical issues aren't resolved quickly, customer satisfaction tanks. Key issues slip through the cracks in the absence of open communication, resulting in increased tension and frustration among teams. Open communication helps development and operations teams swarm on issues, fix incidents, and unblock the release pipeline faster.
+
+4.) Better manage unplanned work-
+
+Unplanned work is a reality that every team faces–a reality that most often impacts team productivity. With established processes and clear prioritization, development and operations teams can better manage unplanned work while continuing to focus on planned work.
+Overall, DevOps is important because it enables organizations to deliver high-quality software faster and more efficiently, leading to better customer satisfaction and increased competitiveness in the market.
